@@ -1,0 +1,37 @@
+@media (min-width: 1440px) {
+  .image-mobile {display: none;}
+  
+  .image-desktop {
+    display: block;
+    width: 100%;
+  }
+
+  main {
+    width: 30%;
+    top: 18%;
+    margin: 0 auto 0;
+    border-radius: 1.2rem;
+    padding: 0 2rem 2rem 2.5rem;
+  }
+
+  .icon-star {
+    width: 2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3:hover {
+    cursor: pointer;
+    color: rgb(196, 41, 196);
+  }
+
+  .icon-plus:hover, .icon-minus:hover {
+    cursor: pointer;
+  }
+
+  p {
+    padding-right: 2rem;
+  }
+}
